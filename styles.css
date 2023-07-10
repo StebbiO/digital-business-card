@@ -1,19 +1,27 @@
 body {
     margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .card {
-    border: 1px dotted blue;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
-    color: #2b2839;
-    background: #ddebf8;
-    border-bottom: 10px solid #d8cefe;
+    color: #d4afcd;
+    background: #2e6171;
+    border-bottom: 6px solid #b79fad;
+    font-size: 20px;
+}
+
+.card-text {
+    padding-top: 75px;
+}
+
+img {
+    height: 300px;
 }
 
 .avatar {
